@@ -14,7 +14,7 @@ export default function About() {
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         I'm the creator of{' '}
         <HoverCard>
-          <HoverCardTrigger className="underline cursor-help">
+          <HoverCardTrigger className="underline decoration-wavy cursor-help">
             Slaying The Dragon
           </HoverCardTrigger>
           <HoverCardContent className="w-80">
@@ -43,7 +43,7 @@ export default function About() {
             </div>
           </HoverCardContent>
         </HoverCard>
-        ! Outside of that, I am a web developer, JavaScript enthusiast, content
+        ! Outside of that, I am a web developer, JavaScript evangelist, content
         creator, and youtuber. I enjoy video editing, sucking at blender,
         hanging out with my friends and family, and reading in my free time.
       </p>
