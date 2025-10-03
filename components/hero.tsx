@@ -14,8 +14,8 @@ export default function Hero() {
 
   return (
     <section className="max-w-xl m-auto px-4">
-      <LiveClock className="text-muted-foreground text-xs leading-none font-mono text-center block mb-10" />
-      <div className="space-y-5">
+      <LiveClock className="text-muted-foreground text-xs leading-none font-mono text-center block mt-9 mb-9 xs:mb-10 xs:mt-5" />
+      <div className="space-y-4 xs:space-y-5">
         <div>
           <Image
             src="/ramzi.jpg"
@@ -51,7 +51,7 @@ export default function Hero() {
           <Badge>Prisma</Badge>
           <Badge>ES6+</Badge>
         </div>
-        <div className="flex justify-center items-center gap-5">
+        <div className="flex justify-center items-center gap-4 xs:gap-5">
           <Button variant="outline" size="lg" asChild>
             <a
               href={`mailto:${email}`}
