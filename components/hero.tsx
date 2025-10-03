@@ -31,7 +31,7 @@ export default function Hero() {
           <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight mb-1">
             Ramzi Bach 🐉
           </h1>
-          <h2 className="scroll-m-20 text-center text-3xl font-semibold tracking-tight text-muted-foreground font-mono">
+          <h2 className="scroll-m-20 text-center text-3xl font-semibold tracking-tight font-mono">
             Front-End Web Developer
           </h2>
         </div>
