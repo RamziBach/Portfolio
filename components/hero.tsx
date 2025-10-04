@@ -49,7 +49,7 @@ export default function Hero() {
           <Badge>TailwindCSS</Badge>
           <Badge>Neon Postgres</Badge>
           <Badge>Prisma</Badge>
-          <Badge>ES6+</Badge>
+          <Badge>ES2015+</Badge>
         </div>
         <div className="flex justify-center items-center gap-4 xs:gap-5">
           <Button variant="outline" size="lg" asChild>
