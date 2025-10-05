@@ -2,6 +2,7 @@ import Header from '@/components/header';
 import Hero from '@/components/hero';
 import About from '@/components/about';
 import Experience from '@/components/experience';
+import Courses from '@/components/courses';
 import Footer from '@/components/footer';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <About />
         <Experience />
+        <Courses />
       </main>
       <Footer />
     </>
