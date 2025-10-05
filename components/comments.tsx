@@ -11,13 +11,12 @@ import Masonry from 'react-masonry-css';
 
 import { commentsData } from '@/lib/comments';
 
-const COMMENTS_STEP = 9;
+const COMMENTS_STEP = 6;
 const COMMENTS_MAX = 78;
 
 const breakpointColumnsObj = {
-  default: 3,
-  896: 2,
-  672: 1,
+  default: 2,
+  512: 1,
 };
 
 export default function Comments() {
@@ -32,7 +31,7 @@ export default function Comments() {
   const commentsList = commentsData.slice(0, visibleCount);
 
   return (
-    <section className="mt-18 max-w-5xl m-auto px-4">
+    <section className="mt-18 max-w-xl m-auto px-4">
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="flex ml-[-1rem] w-auto"
@@ -41,11 +40,11 @@ export default function Comments() {
         {commentsList.map(({ id, comment, name }) => (
           <Card key={id} className="mb-4">
             <CardContent>
-              <p className="leading-6 text-sm font-mono">{comment}</p>
+              <p className="leading-5 text-xs font-mono">{comment}</p>
             </CardContent>
             <CardFooter>
-              <p className="text-sm text-muted-foreground">
-                <SiYoutube className="inline" size="1em" /> {name}
+              <p className="text-xs text-muted-foreground inline-flex items-center gap-1">
+                <SiYoutube size="1em" /> {name}
               </p>
             </CardFooter>
           </Card>
@@ -55,12 +54,15 @@ export default function Comments() {
         <Button
           onClick={handleLoadMore}
           variant="outline"
+          size="sm"
           disabled={commentsList.length === COMMENTS_MAX}
         >
           Load more
         </Button>
         {commentsList.length > COMMENTS_STEP && (
-          <Button onClick={handleCollapse}>Collapse</Button>
+          <Button onClick={handleCollapse} size="sm">
+            Collapse
+          </Button>
         )}
       </div>
     </section>

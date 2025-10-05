@@ -157,9 +157,7 @@ export default function Experience() {
                 <div className="flex flex-wrap gap-2">
                   {experience.technologies.map(
                     (tech: string, index: number) => (
-                      <Badge key={index} variant="secondary">
-                        {tech}
-                      </Badge>
+                      <Badge key={index}>{tech}</Badge>
                     )
                   )}
                 </div>
