@@ -8,6 +8,21 @@ import {
   TableRow,
 } from '@/components/ui/table';
 
+import { Link } from 'lucide-react';
+
+const courses = [
+  {
+    id: 1,
+    name: 'The CSS Full Course',
+    href: 'https://www.slayingthedragon.io/dashboard/css/introduction',
+  },
+  {
+    id: 2,
+    name: 'The JavaScript Full Course',
+    href: 'https://www.slayingthedragon.io/dashboard/js/javascript-is-everywhere',
+  },
+];
+
 export default function Courses() {
   return (
     <section className="mt-18 max-w-xl m-auto px-4">
@@ -15,39 +30,26 @@ export default function Courses() {
         <TableCaption>Courses I've created</TableCaption>
         <TableHeader>
           <TableRow className="hover:bg-transparent">
-            <TableHead className="w-[100px]">Courses</TableHead>
-            <TableHead className="text-right">Status</TableHead>
+            <TableHead>Courses</TableHead>
+            <TableHead className="text-right">Link</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
-          <TableRow className="cursor-pointer hover:bg-muted/50 transition-colors">
-            <a
-              href="https://www.slayingthedragon.io/dashboard/css/introduction"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contents"
-            >
-              <TableCell className="font-medium">The CSS Full Course</TableCell>
-              <TableCell className="text-right font-mono text-muted-foreground">
-                Completed
+          {courses.map(course => (
+            <TableRow key={course.id} className="hover:bg-transparent">
+              <TableCell className="font-medium">{course.name}</TableCell>
+              <TableCell className="text-right">
+                <a
+                  href={course.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center"
+                >
+                  <Link size="1.25em" />
+                </a>
               </TableCell>
-            </a>
-          </TableRow>
-          <TableRow className="cursor-pointer hover:bg-muted/50 transition-colors">
-            <a
-              href="https://www.slayingthedragon.io/dashboard/js/javascript-is-everywhere"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contents"
-            >
-              <TableCell className="font-medium">
-                The JavaScript Full Course
-              </TableCell>
-              <TableCell className="text-right font-mono text-muted-foreground">
-                Early access
-              </TableCell>
-            </a>
-          </TableRow>
+            </TableRow>
+          ))}
         </TableBody>
       </Table>
     </section>

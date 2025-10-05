@@ -56,7 +56,8 @@ export default function Footer() {
         >
           Geist
         </a>{' '}
-        typeface. Copyrights © {new Date().getFullYear()} Ramzi Bach.{' '}
+        typeface. Copyrights © {new Date().getFullYear()} Ramzi Bach.
+        {/* {' '}
         <a
           href="#"
           target="_blank"
@@ -65,7 +66,7 @@ export default function Footer() {
         >
           This site is open source
         </a>
-        ! {'<3'}
+        ! {'<3'} */}
       </p>
     </footer>
   );
