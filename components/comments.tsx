@@ -5,6 +5,8 @@ import { useState } from 'react';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+import { SiYoutube } from '@icons-pack/react-simple-icons';
+
 import Masonry from 'react-masonry-css';
 
 import { commentsData } from '@/lib/comments';
@@ -39,10 +41,12 @@ export default function Comments() {
         {commentsList.map(({ id, comment, name }) => (
           <Card key={id} className="mb-4">
             <CardContent>
-              <p className="leading-6 text-sm font-mono">"{comment}"</p>
+              <p className="leading-6 text-sm font-mono">{comment}</p>
             </CardContent>
             <CardFooter>
-              <p className="text-sm text-muted-foreground">@{name}</p>
+              <p className="text-sm text-muted-foreground">
+                <SiYoutube className="inline" size="1em" /> {name}
+              </p>
             </CardFooter>
           </Card>
         ))}
