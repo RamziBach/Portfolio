@@ -129,6 +129,9 @@ export default function Experience() {
           </div>
         </div>
       ))}
+      <a href="#" className="font-medium">
+        View public résumé <ArrowUpRight className="inline" />
+      </a>
     </section>
   );
 }

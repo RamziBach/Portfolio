@@ -36,7 +36,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="underline text-foreground"
         >
-          Shadcn
+          shadcn
         </a>
         , deployed with{' '}
         <a

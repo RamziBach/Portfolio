@@ -23,7 +23,6 @@ export default function Hero() {
             className="rounded-full m-auto"
             width={110}
             height={110}
-            quality={100}
             priority
           />
         </div>
