@@ -48,8 +48,10 @@ export default function Courses() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center"
+                  aria-label={`View ${course.name} course`}
                 >
                   <Link size="1.25em" />
+                  <span className="sr-only">View {course.name}</span>
                 </a>
               </TableCell>
             </TableRow>

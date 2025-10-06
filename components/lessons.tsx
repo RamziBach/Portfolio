@@ -181,8 +181,10 @@ export default function Lessons() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center"
+                    aria-label={`Watch ${lesson.title} on YouTube`}
                   >
                     <Link size="1.25em" />
+                    <span className="sr-only">Watch {lesson.title}</span>
                   </a>
                 </TableCell>
               </TableRow>
