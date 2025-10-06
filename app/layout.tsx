@@ -18,9 +18,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Ramzi Bach',
+  title: 'Ramzi Bach - Front-End Web Developer',
   description:
-    'Personal website of Ramzi Bach, a web developer based in Montreal, Canada.',
+    'Front-End Web Developer and JavaScript educator based in Montreal, Canada. Creator of Slaying The Dragon educational platform. Specializing in Next.js, TypeScript, React, and modern web development. Offering comprehensive CSS and JavaScript courses, YouTube tutorials, and professional web development services.',
   keywords: [
     'Ramzi Bach',
     'Ramzi',
