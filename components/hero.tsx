@@ -13,7 +13,7 @@ import { Copy, Mail } from 'lucide-react';
 
 export default function Hero() {
   const t = useTranslations('HomePage.hero');
-  const email = 'ramzibach.dev@gmail.com';
+  const email = 'hello@ramzibach.dev';
 
   return (
     <section className="max-w-xl m-auto px-4">
