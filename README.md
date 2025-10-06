@@ -5,7 +5,7 @@ A modern, responsive portfolio website showcasing my work as a Front-End Web Dev
 ![Portfolio Screenshot](https://img.shields.io/badge/Status-Live-brightgreen)
 ![Next.js](https://img.shields.io/badge/Next.js-15.5.4-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0-38B2AC)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4)
 
 ## ✨ Features
 
@@ -30,7 +30,7 @@ A modern, responsive portfolio website showcasing my work as a Front-End Web Dev
 
 - **Framework**: Next.js 15 (App Router)
 - **Language**: TypeScript
-- **Styling**: TailwindCSS + CSS Modules
+- **Styling**: TailwindCSS
 - **UI Components**: shadcn/ui
 - **Internationalization**: next-intl
 - **Theme Management**: next-themes
@@ -41,28 +41,28 @@ A modern, responsive portfolio website showcasing my work as a Front-End Web Dev
 ### Project Structure
 
 ```
-├── app/                    # Next.js App Router
-│   ├── globals.css        # Global styles and CSS variables
-│   ├── layout.tsx         # Root layout with providers
-│   └── page.tsx           # Home page
-├── components/            # Reusable UI components
-│   ├── ui/                # shadcn/ui base components
-│   ├── about.tsx          # About section with hover cards
-│   ├── experience.tsx     # Work experience with tabs
-│   ├── footer.tsx         # Footer with rich text links
-│   ├── header.tsx         # Navigation with social links
-│   ├── hero.tsx           # Hero section with live clock
-│   ├── language-switcher.tsx # i18n language toggle
-│   ├── live-clock.tsx     # Real-time Montreal clock
-│   └── mode-toggle.tsx    # Dark/light theme toggle
-├── i18n/                  # Internationalization config
-│   └── request.ts         # next-intl configuration
-├── lib/                   # Utility functions
-│   └── utils.ts           # shadcn utilities
-├── messages/              # Translation files
-│   ├── en.json            # English translations
-│   └── fr.json            # French translations
-└── middleware.ts          # Locale detection middleware
+├── app/                        # Next.js App Router
+│   ├── globals.css             # Global styles and CSS variables
+│   ├── layout.tsx              # Root layout with providers
+│   └── page.tsx                # Home page
+├── components/                 # Reusable UI components
+│   ├── ui/                     # shadcn/ui base components
+│   ├── about.tsx               # About section with hover cards
+│   ├── experience.tsx          # Work experience with tabs
+│   ├── footer.tsx              # Footer with rich text links
+│   ├── header.tsx              # Navigation with social links
+│   ├── hero.tsx                # Hero section with live clock
+│   ├── language-switcher.tsx   # i18n language toggle
+│   ├── live-clock.tsx          # Real-time Montreal clock
+│   └── mode-toggle.tsx         # Dark/light theme toggle
+├── i18n/                       # Internationalization config
+│   └── request.ts              # next-intl configuration
+├── lib/                        # Utility functions
+│   └── utils.ts                # shadcn utilities
+├── messages/                   # Translation files
+│   ├── en.json                 # English translations
+│   └── fr.json                 # French translations
+└── middleware.ts               # Locale detection middleware
 ```
 
 ## 🚀 Getting Started
@@ -141,21 +141,6 @@ All components are modular and can be easily customized:
 - **Section Components**: Located in `components/`
 - **Styling**: TailwindCSS classes with CSS variables
 
-## 📱 Responsive Design
-
-- **Mobile-first** approach with progressive enhancement
-- **Breakpoints**: xs (475px), sm, md, lg, xl, 2xl
-- **Optimized layouts** for all screen sizes
-- **Touch-friendly** interactions on mobile devices
-
-## 🔧 Performance Optimizations
-
-- **Next.js Image** component for optimized images
-- **Font optimization** with variable fonts
-- **Code splitting** with dynamic imports
-- **Skeleton loading** states to prevent layout shift
-- **Efficient re-renders** with React best practices
-
 ## 🚀 Deployment
 
 This project is optimized for deployment on **Vercel**:
@@ -181,16 +166,3 @@ This project is optimized for deployment on **Vercel**:
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 🙋‍♂️ Contact
-
-**Ramzi Bach** - Front-End Web Developer
-
-- 📧 Email: [ramzibach.dev@gmail.com](mailto:ramzibach.dev@gmail.com)
-- 🐙 GitHub: [RamziBach](https://github.com/RamziBach)
-- 🎥 YouTube: [Slaying The Dragon](https://youtube.com/@slayingthedragon)
-- 💼 Platform: [SlayingTheDragon.io](https://slayingthedragon.io)
-
----
-
-**Built with ❤️ in Montreal, Canada 🍁**
