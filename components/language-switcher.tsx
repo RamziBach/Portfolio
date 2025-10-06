@@ -46,12 +46,7 @@ export default function LanguageSwitcher() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button
-          variant="ghost"
-          size="icon"
-          disabled={isPending}
-          title="Change language"
-        >
+        <Button variant="ghost" size="icon" disabled={isPending}>
           <span className="text-sm">{currentLanguage.flag}</span>
         </Button>
       </DropdownMenuTrigger>

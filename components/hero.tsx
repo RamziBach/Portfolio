@@ -12,7 +12,7 @@ import Pulse from '@/components/pulse';
 import { Copy, Mail } from 'lucide-react';
 
 export default function Hero() {
-  const t = useTranslations('HomePage');
+  const t = useTranslations('HomePage.hero');
   const email = 'ramzibach.dev@gmail.com';
 
   return (
@@ -31,17 +31,17 @@ export default function Hero() {
         </div>
         <div>
           <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight mb-1">
-            Ramzi Bach 🐉
+            {t('title')}
           </h1>
           <h2 className="scroll-m-20 text-center text-3xl font-semibold tracking-tight font-mono">
-            Front-End Web Developer
+            {t('subtitle')}
           </h2>
         </div>
         <div>
           <div className="flex items-center justify-center gap-4">
             <Pulse />
             <p className="text-muted-foreground leading-none">
-              Available for new opportunities
+              {t('availability')}
             </p>
           </div>
         </div>
@@ -60,21 +60,21 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Contact me <Mail />
+              {t('contactButton')} <Mail />
             </a>
           </Button>
-          <p className="text-muted-foreground leading-none">or</p>
+          <p className="text-muted-foreground leading-none">{t('or')}</p>
           <ClipboardBtn
             stringToCopy={email}
-            message="Email copied!"
-            label="Close"
+            message={t('copyMessage')}
+            label={t('closeLabel')}
             size="lg"
           >
-            Copy email <Copy />
+            {t('copyButton')} <Copy />
           </ClipboardBtn>
         </div>
         <p className="text-muted-foreground text-center text-xs leading-none font-mono">
-          in Montreal, Canada 🍁
+          {t('location')}
         </p>
       </div>
     </section>

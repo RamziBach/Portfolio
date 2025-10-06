@@ -1,6 +1,16 @@
 {
   "HomePage": {
-    "hero": {},
+    "hero": {
+      "title": "Ramzi Bach 🐉",
+      "subtitle": "Front-End Web Developer",
+      "availability": "Available for new opportunities",
+      "contactButton": "Contact me",
+      "copyButton": "Copy email",
+      "or": "or",
+      "location": "in Montreal, Canada 🍁",
+      "copyMessage": "Email copied!",
+      "closeLabel": "Close"
+    },
     "about": {
       "paragraph1": "Hi! I'm Ramzi, and I like to make software, videos, and courses.",
       "paragraph2": "I'm the creator of <slayingTheDragon>Slaying The Dragon</slayingTheDragon>! Outside of that, I am a web developer, JavaScript evangelist, content creator, and youtuber. I enjoy video editing, sucking at blender, hanging out with my friends and family, and reading in my free time.",
