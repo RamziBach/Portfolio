@@ -1,3 +1,5 @@
+import { useTranslations } from 'next-intl';
+
 import {
   Table,
   TableBody,
@@ -154,14 +156,15 @@ const lessons = [
 ];
 
 export default function Lessons() {
+  const t = useTranslations('HomePage.lessons');
   return (
     <section className="mt-18 max-w-xl m-auto px-4">
       <Table>
-        <TableCaption>My latest YouTube videos</TableCaption>
+        <TableCaption>{t('caption')}</TableCaption>
         <TableHeader>
           <TableRow className="hover:bg-transparent">
-            <TableHead>YouTube Videos</TableHead>
-            <TableHead className="text-right">Link</TableHead>
+            <TableHead>{t('heading1')}</TableHead>
+            <TableHead className="text-right">{t('heading2')}</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>

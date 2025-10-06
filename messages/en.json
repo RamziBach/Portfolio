@@ -4,7 +4,11 @@
     "about": {},
     "experience": {},
     "courses": {},
-    "lessons": {},
+    "lessons": {
+      "heading1": "YouTube Videos",
+      "heading2": "Link",
+      "caption": "My latest YouTube videos"
+    },
     "footer": {
       "description": "Loosely designed in my imagination and coded in <vscode>Visual Studio Code</vscode> by yours truly. Built with <nextjs>NextJS</nextjs>, <tailwind>TailwindCSS</tailwind> and <shadcn>shadcn</shadcn>, deployed with <vercel>Vercel</vercel>. All text is set in the <geist>Geist</geist> typeface. Copyrights © {year} Ramzi Bach."
     }
