@@ -7,8 +7,6 @@ A modern, responsive portfolio website showcasing my work as a Front-End Web Dev
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4)
 
-## ✨ Features
-
 ### 🌍 **Internationalization (i18n)**
 
 - **English & French** support with seamless language switching
@@ -23,8 +21,6 @@ A modern, responsive portfolio website showcasing my work as a Front-End Web Dev
 - **shadcn/ui** components with consistent styling
 - Smooth animations and hover effects
 - **NextTopLoader** for elegant page transitions
-
-## 🏗 Architecture
 
 ### Tech Stack
 
@@ -65,8 +61,6 @@ A modern, responsive portfolio website showcasing my work as a Front-End Web Dev
 └── middleware.ts               # Locale detection middleware
 ```
 
-## 🚀 Getting Started
-
 ### Prerequisites
 
 - Node.js 18+
@@ -104,23 +98,6 @@ pnpm dev
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🌐 Internationalization
-
-This portfolio supports English and French with the following features:
-
-- **Automatic language detection** based on browser preferences
-- **Cookie persistence** for language preference
-- **Rich text support** for components with embedded links
-- **Complete translations** for all user-facing content
-
-### Adding New Languages
-
-1. Create a new translation file in `messages/[locale].json`
-2. Add the locale to the middleware configuration
-3. Update the language switcher component
-
-## 🎨 Customization
-
 ### Theme Colors
 
 Modify CSS custom properties in `app/globals.css`:
@@ -132,37 +109,3 @@ Modify CSS custom properties in `app/globals.css`:
   /* ... other colors */
 }
 ```
-
-### Components
-
-All components are modular and can be easily customized:
-
-- **UI Components**: Located in `components/ui/`
-- **Section Components**: Located in `components/`
-- **Styling**: TailwindCSS classes with CSS variables
-
-## 🚀 Deployment
-
-This project is optimized for deployment on **Vercel**:
-
-1. **Connect your repository** to Vercel
-2. **Configure environment variables** (if any)
-3. **Deploy** with automatic builds on push
-
-### Other Deployment Options
-
-- **Netlify**: Works out of the box
-- **Railway**: Full-stack deployment
-- **DigitalOcean**: App Platform deployment
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
