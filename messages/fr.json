@@ -1,7 +1,15 @@
 {
   "HomePage": {
     "hero": {},
-    "about": {},
+    "about": {
+      "paragraph1": "Salut ! Je suis Ramzi, et j'aime créer des logiciels, des vidéos et des cours.",
+      "paragraph2": "Je suis le créateur de <slayingTheDragon>Slaying The Dragon</slayingTheDragon> ! En dehors de cela, je suis développeur web, évangéliste JavaScript, créateur de contenu et youtubeur. J'aime le montage vidéo, être nul à Blender, traîner avec mes amis et ma famille, et lire pendant mon temps libre.",
+      "paragraph3": "Vous devriez vous abonner à ma <youtubeChannel>chaîne YouTube</youtubeChannel> !",
+      "hoverCard": {
+        "description": "Une plateforme de cours construite avec NextJS, maintenue par moi-même.",
+        "created": "Créé en mai 2023"
+      }
+    },
     "experience": {
       "tab1": "Détails",
       "tab2": "Témoignage",
