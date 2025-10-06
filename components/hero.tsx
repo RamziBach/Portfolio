@@ -38,9 +38,9 @@ export default function Hero() {
           </h2>
         </div>
         <div>
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex items-center justify-center gap-3 xs:gap-4">
             <Pulse />
-            <p className="text-muted-foreground leading-none">
+            <p className="text-muted-foreground leading-none text-sm xs:text-base">
               {t('availability')}
             </p>
           </div>

@@ -103,7 +103,8 @@ export default function Experience() {
                               rel="noopener noreferrer"
                               className="hover:underline inline-flex items-center gap-1"
                             >
-                              {experience.company} <ArrowUpRight />
+                              {experience.company}{' '}
+                              <ArrowUpRight size="1.25em" />
                             </a>
                           </CardTitle>
                         </TooltipTrigger>
@@ -120,12 +121,12 @@ export default function Experience() {
                       {t(`${experienceKey}.details.period`)}
                     </p>
                   </div>
-                  <CardDescription className="text-sm font-mono text-muted-foreground font-medium">
+                  <CardDescription className="text-xs xs:text-sm font-mono text-muted-foreground font-medium">
                     {t(`${experienceKey}.details.position`)}
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="leading-7 font-mono text-sm">
+                  <p className="leading-7 font-mono text-sm">
                     {experienceKey === 'rally'
                       ? t.rich(`${experienceKey}.details.description`, {
                           waxMotif: chunks => (
@@ -150,7 +151,7 @@ export default function Experience() {
                           ),
                         })
                       : t(`${experienceKey}.details.description`)}
-                  </div>
+                  </p>
                   <div className="flex flex-wrap gap-2">
                     {experience.technologies.map(
                       (tech: string, index: number) => (
@@ -175,7 +176,8 @@ export default function Experience() {
                               rel="noopener noreferrer"
                               className="hover:underline inline-flex items-center gap-1"
                             >
-                              {experience.company} <ArrowUpRight />
+                              {experience.company}{' '}
+                              <ArrowUpRight size="1.25em" />
                             </a>
                           </CardTitle>
                         </TooltipTrigger>
@@ -192,7 +194,7 @@ export default function Experience() {
                       {t(`${experienceKey}.details.period`)}
                     </p>
                   </div>
-                  <CardDescription className="text-sm font-mono text-muted-foreground font-medium">
+                  <CardDescription className="text-xs xs:text-sm font-mono text-muted-foreground font-medium">
                     {t(`${experienceKey}.details.position`)}
                   </CardDescription>
                 </CardHeader>
@@ -214,7 +216,7 @@ export default function Experience() {
           href="#"
           className="font-medium hover:underline inline-flex items-center gap-1"
         >
-          {t('resumeCTA')} <ArrowUpRight />
+          {t('resumeCTA')} <ArrowUpRight size="1.25em" />
         </a>
       </div>
     </section>
