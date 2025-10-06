@@ -2,7 +2,44 @@
   "HomePage": {
     "hero": {},
     "about": {},
-    "experience": {},
+    "experience": {
+      "tab1": "Details",
+      "tab2": "Testimonial",
+      "resumeCTA": "View public résumé",
+      "slayingTheDragon": {
+        "details": {
+          "period": "May 2023 - Present",
+          "position": "Lead Developer",
+          "description": "Build, style, and maintain a production-grade educational platform. Designed and architected both the frontend and backend, implemented secure authentication, integrated streaming video, and handled payments. Developed modular components for a responsive and performant user experience."
+        },
+        "testimonial": {
+          "quote": "SlayingTheDragon is an amazing teacher and a great person. His style is clear and direct, without any fluff, making lessons easy to follow. He uses solid explanations and code examples that really fit the concepts. Even the basics are presented with a depth I have not seen in other JavaScript courses. I honestly think even experienced developers can pick up valuable insights from his course.",
+          "author": "Rexate, Student"
+        }
+      },
+      "rally": {
+        "details": {
+          "period": "Apr 2021 - Feb 2022",
+          "position": "Frontend Developer",
+          "description": "Designed and deployed high-quality websites for Rally platform users, including content creators <waxMotif>Wax Motif</waxMotif> and <drazeForce>Draze Force</drazeForce>. Delivered responsive, accessible web experiences that elevated their brand presence while integrating Rally's social token API."
+        },
+        "testimonial": {
+          "quote": "The care, dedication, and attention to detail is greatly appreciated. I was blown away with Ramzi's work.",
+          "author": "Draze Force, Client"
+        }
+      },
+      "platformPro": {
+        "details": {
+          "period": "Jul 2020 - Apr 2021",
+          "position": "Frontend Developer",
+          "description": "Developed high-converting marketing landing pages to support product launches and user acquisition campaigns. Translated marketing requirements into responsive, conversion-optimized pages that effectively communicated the platform's value proposition."
+        },
+        "testimonial": {
+          "quote": "Ramzi is a LEGEND. I am grateful for the opportunities I've had to collaborate with him on various projects. His communication is excellent. He was passionate about the work being done, and was never afraid to tackle a new idea or challenge. You wont be disappointed if you choose to work with Ramzi.",
+          "author": "Alex Phelps, Founder"
+        }
+      }
+    },
     "courses": {
       "heading1": "Courses",
       "heading2": "Link",

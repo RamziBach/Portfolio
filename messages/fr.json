@@ -2,7 +2,44 @@
   "HomePage": {
     "hero": {},
     "about": {},
-    "experience": {},
+    "experience": {
+      "tab1": "Détails",
+      "tab2": "Témoignage",
+      "resumeCTA": "Voir le CV public",
+      "slayingTheDragon": {
+        "details": {
+          "period": "Mai 2023 - Présent",
+          "position": "Développeur Principal",
+          "description": "Construire, styliser et maintenir une plateforme éducative de niveau production. Conçu et architecturé à la fois le frontend et le backend, implémenté l'authentification sécurisée, intégré la vidéo en streaming et géré les paiements. Développé des composants modulaires pour une expérience utilisateur réactive et performante."
+        },
+        "testimonial": {
+          "quote": "SlayingTheDragon est un professeur incroyable et une grande personne. Son style est clair et direct, sans fioritures, rendant les leçons faciles à suivre. Il utilise des explications solides et des exemples de code qui correspondent vraiment aux concepts. Même les bases sont présentées avec une profondeur que je n'ai pas vue dans d'autres cours JavaScript. Je pense honnêtement que même les développeurs expérimentés peuvent tirer des informations précieuses de son cours.",
+          "author": "Rexate, Étudiant"
+        }
+      },
+      "rally": {
+        "details": {
+          "period": "Avr 2021 - Fév 2022",
+          "position": "Développeur Frontend",
+          "description": "Conçu et déployé des sites web de haute qualité pour les utilisateurs de la plateforme Rally, y compris les créateurs de contenu <waxMotif>Wax Motif</waxMotif> et <drazeForce>Draze Force</drazeForce>. Livré des expériences web réactives et accessibles qui ont élevé leur présence de marque tout en intégrant l'API de jeton social de Rally."
+        },
+        "testimonial": {
+          "quote": "L'attention, le dévouement et l'attention aux détails sont grandement appréciés. J'ai été époustouflé par le travail de Ramzi.",
+          "author": "Draze Force, Client"
+        }
+      },
+      "platformPro": {
+        "details": {
+          "period": "Juil 2020 - Avr 2021",
+          "position": "Développeur Frontend",
+          "description": "Développé des pages d'atterrissage marketing à fort taux de conversion pour soutenir les lancements de produits et les campagnes d'acquisition d'utilisateurs. Traduit les exigences marketing en pages réactives et optimisées pour la conversion qui communiquent efficacement la proposition de valeur de la plateforme."
+        },
+        "testimonial": {
+          "quote": "Ramzi est une LÉGENDE. Je suis reconnaissant pour les opportunités que j'ai eues de collaborer avec lui sur divers projets. Sa communication est excellente. Il était passionné par le travail accompli, et n'avait jamais peur de s'attaquer à une nouvelle idée ou un nouveau défi. Vous ne serez pas déçu si vous choisissez de travailler avec Ramzi.",
+          "author": "Alex Phelps, Fondateur"
+        }
+      }
+    },
     "courses": {
       "heading1": "Cours",
       "heading2": "Lien",
