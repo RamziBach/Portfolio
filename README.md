@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my work as a Front-End Web Developer. Built with cutting-edge technologies and featuring multilingual support, this portfolio represents my journey in web development and content creation.
 
-**[🌐 Live Demo](https://ramzibach.dev)**
+**[🌐 Live website](https://ramzibach.dev)**
 
 ## 🌍 Internationalization (i18n)
 
