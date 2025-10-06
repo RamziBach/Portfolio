@@ -7,7 +7,8 @@ type Props = {
 };
 
 export default function LiveClock({ className }: Props) {
-  const [time, setTime] = useState<string>('');
+  const [time, setTime] = useState<string>('12:00 AM');
+  const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
     const updateTime = () => {
@@ -22,11 +23,16 @@ export default function LiveClock({ className }: Props) {
     };
 
     updateTime();
+    setIsHydrated(true);
 
     const interval = setInterval(updateTime, 1000);
 
     return () => clearInterval(interval);
   }, []);
 
-  return <small className={className}>{time}</small>;
+  return (
+    <small className={`${className} ${!isHydrated ? 'opacity-50' : ''}`}>
+      {time}
+    </small>
+  );
 }

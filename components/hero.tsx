@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import { useTranslations } from 'next-intl';
+
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
@@ -10,6 +12,7 @@ import Pulse from '@/components/pulse';
 import { Copy, Mail } from 'lucide-react';
 
 export default function Hero() {
+  const t = useTranslations('HomePage');
   const email = 'ramzibach.dev@gmail.com';
 
   return (

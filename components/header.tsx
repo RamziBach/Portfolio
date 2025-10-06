@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 
 import ModeToggle from '@/components/mode-toggle';
+import LanguageSwitcher from '@/components/language-switcher';
 
 import { SiGithub, SiYoutube, SiCodepen } from '@icons-pack/react-simple-icons';
 
@@ -12,12 +13,12 @@ const socialLinks = [
     title: 'GitHub',
     icon: SiGithub,
   },
-  {
-    id: 'codepen',
-    href: 'https://codepen.io/ramzibach-the-styleful',
-    title: 'CodePen',
-    icon: SiCodepen,
-  },
+  // {
+  //   id: 'codepen',
+  //   href: 'https://codepen.io/ramzibach-the-styleful',
+  //   title: 'CodePen',
+  //   icon: SiCodepen,
+  // },
   {
     id: 'youtube',
     href: 'https://youtube.com/@slayingthedragon',
@@ -49,6 +50,10 @@ export default function Header() {
             )}
           </div>
         ))}
+        <div className="h-5">
+          <Separator orientation="vertical" />
+        </div>
+        <LanguageSwitcher />
         <div className="h-5">
           <Separator orientation="vertical" />
         </div>
