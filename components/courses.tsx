@@ -31,7 +31,7 @@ export default function Courses() {
   return (
     <section className="mt-18 max-w-xl m-auto px-4">
       <Table>
-        <TableCaption>{t('caption')}</TableCaption>
+        {/* <TableCaption>{t('caption')}</TableCaption> */}
         <TableHeader>
           <TableRow className="hover:bg-transparent">
             <TableHead>{t('heading1')}</TableHead>
