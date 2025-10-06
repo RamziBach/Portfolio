@@ -1,3 +1,5 @@
+import { useTranslations } from 'next-intl';
+
 import {
   Table,
   TableBody,
@@ -24,14 +26,16 @@ const courses = [
 ];
 
 export default function Courses() {
+  const t = useTranslations('HomePage.courses');
+
   return (
     <section className="mt-18 max-w-xl m-auto px-4">
       <Table>
-        <TableCaption>Courses I've created</TableCaption>
+        <TableCaption>{t('caption')}</TableCaption>
         <TableHeader>
           <TableRow className="hover:bg-transparent">
-            <TableHead>Courses</TableHead>
-            <TableHead className="text-right">Link</TableHead>
+            <TableHead>{t('heading1')}</TableHead>
+            <TableHead className="text-right">{t('heading2')}</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>

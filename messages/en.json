@@ -3,7 +3,11 @@
     "hero": {},
     "about": {},
     "experience": {},
-    "courses": {},
+    "courses": {
+      "heading1": "Courses",
+      "heading2": "Link",
+      "caption": "Courses I've created"
+    },
     "lessons": {
       "heading1": "YouTube Videos",
       "heading2": "Link",

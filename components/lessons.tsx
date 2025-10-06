@@ -157,6 +157,7 @@ const lessons = [
 
 export default function Lessons() {
   const t = useTranslations('HomePage.lessons');
+
   return (
     <section className="mt-18 max-w-xl m-auto px-4">
       <Table>
