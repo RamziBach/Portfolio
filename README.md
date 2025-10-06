@@ -2,19 +2,16 @@
 
 A modern, responsive portfolio website showcasing my work as a Front-End Web Developer. Built with cutting-edge technologies and featuring multilingual support, this portfolio represents my journey in web development and content creation.
 
-![Portfolio Screenshot](https://img.shields.io/badge/Status-Live-brightgreen)
-![Next.js](https://img.shields.io/badge/Next.js-15.5.4-black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4)
+**[🌐 Live Demo](https://ramzibach.dev)**
 
-### 🌍 **Internationalization (i18n)**
+## 🌍 Internationalization (i18n)
 
 - **English & French** support with seamless language switching
 - Cookie-based locale persistence
 - Rich text support for complex components with embedded links
 - Professional translations for all content
 
-### 🎨 **Modern UI/UX**
+## 🎨 Modern UI/UX
 
 - **Dark/Light mode** toggle with system preference detection
 - Responsive design optimized for all devices
@@ -22,7 +19,7 @@ A modern, responsive portfolio website showcasing my work as a Front-End Web Dev
 - Smooth animations and hover effects
 - **NextTopLoader** for elegant page transitions
 
-### Tech Stack
+## 🚀 Tech Stack
 
 - **Framework**: Next.js 15 (App Router)
 - **Language**: TypeScript
@@ -34,7 +31,7 @@ A modern, responsive portfolio website showcasing my work as a Front-End Web Dev
 - **Font**: Geist (Variable fonts)
 - **Deployment**: Vercel
 
-### Project Structure
+## Project Structure
 
 ```
 ├── app/                        # Next.js App Router
@@ -61,12 +58,12 @@ A modern, responsive portfolio website showcasing my work as a Front-End Web Dev
 └── middleware.ts               # Locale detection middleware
 ```
 
-### Prerequisites
+## Prerequisites
 
 - Node.js 18+
 - npm, yarn, pnpm, or bun
 
-### Installation
+## Installation
 
 1. **Clone the repository**
 
@@ -98,7 +95,7 @@ pnpm dev
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-### Theme Colors
+## Theme Colors
 
 Modify CSS custom properties in `app/globals.css`:
 
