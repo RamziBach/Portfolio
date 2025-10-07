@@ -1,23 +1,8 @@
 # 🐉 Ramzi Bach - Portfolio
 
-A modern, responsive portfolio website showcasing my work as a Front-End Web Developer. Built with cutting-edge technologies and featuring multilingual support, this portfolio represents my journey in web development and content creation.
+My modern, NextJS, TailwindCSS, shadcn portfolio website.
 
 **[🌐 Live website](https://ramzibach.dev)**
-
-## 🌍 Internationalization (i18n)
-
-- **English & French** support with seamless language switching
-- Cookie-based locale persistence
-- Rich text support for complex components with embedded links
-- Professional translations for all content
-
-## 🎨 Modern UI/UX
-
-- **Dark/Light mode** toggle with system preference detection
-- Responsive design optimized for all devices
-- **shadcn/ui** components with consistent styling
-- Smooth animations and hover effects
-- **NextTopLoader** for elegant page transitions
 
 ## 🚀 Tech Stack
 
@@ -94,15 +79,3 @@ pnpm dev
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
-
-## Theme Colors
-
-Modify CSS custom properties in `app/globals.css`:
-
-```css
-:root {
-  --primary: oklch(0.21 0.034 264.665);
-  --secondary: oklch(0.967 0.003 264.542);
-  /* ... other colors */
-}
-```
