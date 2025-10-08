@@ -17,7 +17,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 import { ArrowUpRight } from 'lucide-react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 const workExperiences = [
   {
@@ -65,6 +65,13 @@ const workExperiences = [
 
 export default function Experience() {
   const t = useTranslations('HomePage.experience');
+  const locale = useLocale();
+
+  const getResumeUrl = () => {
+    return locale === 'fr'
+      ? '/Ramzi_Bach_fr_publique.pdf'
+      : '/Ramzi_Bach_en_public.pdf';
+  };
 
   const getExperienceKey = (id: number) => {
     switch (id) {
@@ -213,7 +220,9 @@ export default function Experience() {
       })}
       <div className="text-center">
         <a
-          href="#"
+          href={getResumeUrl()}
+          target="_blank"
+          rel="noopener noreferrer"
           className="font-medium hover:underline inline-flex items-center gap-1"
         >
           {t('resumeCTA')} <ArrowUpRight size="1.25em" />
