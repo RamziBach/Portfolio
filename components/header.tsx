@@ -4,7 +4,7 @@ import { Separator } from '@/components/ui/separator';
 import ModeToggle from '@/components/mode-toggle';
 import LanguageSwitcher from '@/components/language-switcher';
 
-import { SiGithub, SiYoutube, SiCodepen } from '@icons-pack/react-simple-icons';
+import { SiGithub, SiYoutube } from '@icons-pack/react-simple-icons';
 
 const socialLinks = [
   {
